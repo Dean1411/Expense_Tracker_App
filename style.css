@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 21px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 401px;
+    margin: auto;
+    background: white;
+    padding: 21px;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 21px;
+
+}
+
+input, select, button {
+    padding: 11px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #28a745 ;
+    color: white;
+    cursor: pointer;
+}
+
+.transaction ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction li {
+    background: #ddd;
+    margin: 6px 0;
+    padding: 11px;
+    border-radius: 6px;
+}
